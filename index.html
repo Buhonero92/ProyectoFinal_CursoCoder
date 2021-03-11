@@ -1,0 +1,81 @@
+<html lang="es">
+<head>
+    <title>Chocó &middot; BirdingTours</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is your Birdwatching tours best content, where you can find general information about fantastic tours and navigate through other pages of the web site.">
+    <meta name="keywords" content="Chocó BirdingTours, birdwatching, tours, naturetours, birds, birding, photography, naturephotos" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/2d1e5e04b1/UntitledProject/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <section class="banner-area">
+        <header class="banner-area__banner-header">
+            <div class="container logo-nav-container">
+                <a class="logo" href="#">Chocó&middot;BirdingTours</a>
+                <a class="logo-wrap" href="#">Chocó &middot;<br>BirdingTours</a>
+                <span class="menu-icon icon-bars"></span>
+                <nav class="navigation">
+                    <ul class="show">
+                        <li><a href="./pages/tours.html">Tours</a></li>
+                        <li><a href="./pages/gallery.html">Gallery</a></li>
+                        <li><a href="./pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <div class="banner-img">
+            <h2 class="centrado">Birdwatching experiences, customized for you!!</h2>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="">
+            <p class="foot paraTransicion">© Copyright 2021 | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var menuButton = $('.menu-icon'),
+                menu = $('.navigation ul');
+            menu.removeClass("show");
+            menuButton.click(function() {
+                if(menu.hasClass('show')){
+                    menu.removeClass('show');
+                } else {
+                    menu.addClass('show');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

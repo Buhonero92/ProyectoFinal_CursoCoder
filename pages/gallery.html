@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gallery &#x2606; Chocó &middot; BirdingTours</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="description" content="Here you can find a lot of pictures of birds taken in every single tour that we have for you.">
+        <meta name="keywords" content="Chocó BirdingTours, gallery, images, photos, birdwatching, tours, naturetours, birds, birding, photography, naturephotos" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://i.icomoon.io/public/temp/2d1e5e04b1/UntitledProject/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+       
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../contenido-multimedia/fontAwesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+  <body>
+    <section class="banner-area">
+      <header class="banner-area__banner-header img-banner">
+        <div class="container logo-nav-container">
+          <a class="logo" href="../index.html">Chocó&middot;BirdingTours</a>
+          <a class="logo-wrap" href="../index.html"
+            >Chocó &middot;<br />BirdingTours</a
+          >
+          <span class="menu-icon icon-bars"></span>
+          <nav class="navigation">
+            <ul class="show">
+              <li><a href="../pages/tours.html">Tours</a></li>
+              <li><a href="../pages/gallery.html">Gallery</a></li>
+              <li><a href="../pages/contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="wrapper">
+          <div class="box">
+            <img
+              src="https://github.com/Buhonero92/coderHouse/blob/main/trogon.jpg?raw=true"
+              alt="Cargando imagen..."
+            />
+            <h3 class="desc">Masked Trogon (Trogon presonatus) - Female</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://github.com/Buhonero92/coderHouse/blob/main/lacrimosa.jpg?raw=true"
+              alt="Cargando imagen..."
+            />
+            <h3 class="desc">
+              Lacrimose Mountain-Tanager (Anisognathus lacrymosus)
+            </h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://github.com/Buhonero92/coderHouse/blob/main/atlatepes.jpg?raw=true"
+              alt="Cargando imagen..."
+            />
+            <h3 class="desc">White-naped Brushfinch (Atlapetes albinucha)</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://github.com/Buhonero92/coderHouse/blob/main/femaleTrogon.jpg?raw=true"
+              alt="Cargando imagen..."
+            />
+            <h3 class="desc">Masked Trogon (Trogon personatus) - Female</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://github.com/Buhonero92/coderHouse/blob/main/carriqui.jpg?raw=true"
+              alt="Cargando imagen..."
+            />
+            <h3 class="desc">Black-chested Jay (Cyanocorax affinis)</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://github.com/Buhonero92/coderHouse/blob/main/pinche.jpg?raw=true"
+              alt="Cargando imagen..."
+            />
+            <h3 class="desc">Rufous-collared Sparrow (Zonotrichia capensis)</h3>
+          </div>
+        </div>
+      </main>
+    </section>
+    <footer class="footer">
+      <div class="">
+        <p class="foot paraTransicion">
+          © Copyright 2021 Eduardo Zuleta | All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var menuButton = $(".menu-icon"),
+          menu = $(".navigation ul");
+        menu.removeClass("show");
+        menuButton.click(function () {
+          if (menu.hasClass("show")) {
+            menu.removeClass("show");
+          } else {
+            menu.addClass("show");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

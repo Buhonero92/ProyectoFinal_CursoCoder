@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Tours &#x2606; Chocó &middot; BirdingTours</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Here you can find information about the tours, like location, starting date and a litle description.">
+        <meta name="keywords" content="Chocó BirdingTours, tours, chocó, birdingtours, birdwatching, naturetours, birds, birding, photography, naturephotos" >
+        <link rel="stylesheet" href="https://i.icomoon.io/public/temp/2d1e5e04b1/UntitledProject/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+       
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../contenido-multimedia/fontAwesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+      <body>
+        <section class="tours-area">
+          <header class="banner-area__banner-header">
+            <div class="container logo-nav-container">
+              <a class="logo" href="../index.html">Chocó&middot;BirdingTours</a>
+              <a class="logo-wrap" href="../index.html"
+                >Chocó &middot;<br />BirdingTours</a
+              >
+              <span class="menu-icon icon-bars"></span>
+              <nav class="navigation">
+                <ul class="show">
+                  <li><a href="../pages/tours.html">Tours</a></li>
+                  <li><a href="../pages/gallery.html">Gallery</a></li>
+                  <li><a href="../pages/contact.html">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+    <div class="tours-img"></div>
+      <div class="tours-txt">
+        <h2>
+          INFORMATION ABOUT THE TOURS
+        </h2>
+        <hr>
+        <div class="row titles">
+          <h2 class="col-md">Destination</h2>
+          <h2 class="col-md">About tours</h2>
+          <h2 class="col-md">Date</h2>
+        </div>
+        <hr>
+        <div class="row titles">
+          <p class="col-md">Chocó RainForest</p>
+          <p class="col-md">
+            We will visit the incredible rainforests of the Chocó biogeographic
+            region in Colombia, <br> where we will be able to observe a large number
+            of endemic birds.
+          </p>
+          <p class="col-md">2021-05-15</p>
+        </div>
+        <hr>
+        <div class="row titles">
+          <p class="col-md">PRO-AVES RESERVE "LAS TANGARAS"</p>
+          <p class="col-md">
+            We will have the opportunity to see hummingbird species from very
+            close, as well as tanagers with a high degree of vulnerability.
+          </p>
+          <p class="col-md">2021-06-12</p>
+        </div>
+    </div>
+      </section>
+    <footer class="footer">
+        <div class="">
+            <p class="foot paraTransicion">© Copyright 2021 | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var menuButton = $(".menu-icon"),
+          menu = $(".navigation ul");
+        menu.removeClass("show");
+        menuButton.click(function () {
+          if (menu.hasClass("show")) {
+            menu.removeClass("show");
+          } else {
+            menu.addClass("show");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
